@@ -5,7 +5,7 @@
 🔍 SQL queries? Check them out [here](/queries/):
 # Background
 Driven by a quest to optimize Nike's sales strategies, this project was born from a desire to pinpoint top-performing products and product lines, identify key metrics impacting profitability, and streamline efforts to maximize revenue and profit. This analysis leverages comprehensive sales data to uncover actionable insights.
-## Questions
+# Questions
 1. What is the total Revenue generated from sales?
 2. What is the average Profit per order?
 3. Which Sales_Channel (retail or online) generates more Revenue?
