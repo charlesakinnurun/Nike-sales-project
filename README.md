@@ -92,19 +92,20 @@ for col in cat_cols:
 # Save cleaned data
 df.to_csv(r'dataset/Nike_Sales_Cleaned.csv', index=False)
 print("Data cleaned and saved to dataset/Nike_Sales_Cleaned.csv")
-# The Analysis
+```
+# Analysis
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how I approached each question:
-### 1.What is the total Revenue generated from sales?
+#### 1. What is the total Revenue generated from sales?
 ```sql
 SELECT SUM(revenue) AS total_revenue
 FROM nike;
 ```
-### 2. What is the average Profit per order?
+#### 2. What is the average Profit per order?
 ```sql
 SELECT AVG(profit) AS avg_profit_per_order
 FROM nike;
 ```
-### 3. Which Sales_Channel (retail or online) generates more Revenue?
+#### 3. Which Sales_Channel (retail or online) generates more Revenue?
 ```sql
 SELECT saleschannel,SUM(revenue) AS total_revenue
 FROM nike
